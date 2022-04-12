@@ -1,16 +1,20 @@
 {
+  "home": "https://patrickviscount.github.io/DataTable_MaterialTable_JSONAPI/",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json --port 4000"
+    "start": "json-server --watch db.json --port 4000",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "json-server": "^0.17.0"
   }
 }
