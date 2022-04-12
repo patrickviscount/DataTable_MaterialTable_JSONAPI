@@ -1,5 +1,4 @@
-{
-  "DataStreams": [
+[
     {
       "id": 1,
       "Vendor name": "Petah INC",
@@ -150,4 +149,3 @@
       "id": 11
     }
   ]
-}
